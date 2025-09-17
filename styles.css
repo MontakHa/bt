@@ -2,7 +2,11 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0; padding: 0;
+<<<<<<< HEAD
   background: linear-gradient(135deg, #fff8f0 0%, #f1e0d6 100%);
+=======
+  background: #fff8f0;
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
   color: #333;
   line-height: 1.6;
 }
@@ -17,6 +21,7 @@ a:hover {
 
 /* Header */
 header {
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -135,6 +140,79 @@ nav a:hover {
   vertical-align: middle;
 }
 
+=======
+  background: #f4e7dc;
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom: 1px solid #e2d2c3;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgb(210 105 30 / 0.2);
+}
+
+nav a {
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #d2691e;
+}
+
+.contact-info {
+  font-size: 0.9em;
+  margin-top: 6px;
+  color: #7a6550;
+}
+
+/* Welcome section */
+.welcome-section {
+  background: #fff3e6;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #50382f;
+}
+
+.candle-icon {
+  font-size: 2.8rem;
+  vertical-align: middle;
+}
+
+/* Filter Menu */
+#filter-menu {
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+#filter-menu button {
+  margin: 0 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid #d2691e;
+  border-radius: 6px;
+  background: white;
+  color: #d2691e;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
+  outline-offset: 2px;
+}
+
+#filter-menu button:hover,
+#filter-menu button.active {
+  background: #d2691e;
+  color: white;
+  box-shadow: 0 0 8px rgba(210, 105, 30, 0.6);
+}
+
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 /* Product List & Cards */
 #product-list {
   display: flex;
@@ -145,6 +223,7 @@ nav a:hover {
 }
 
 .product-card {
+<<<<<<< HEAD
   position: relative;
   background: white;
   border-radius: 16px;
@@ -157,6 +236,18 @@ nav a:hover {
 .product-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 6px 25px rgba(210, 105, 30, 0.35);
+=======
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgb(0 0 0 / 0.1);
+  width: 285px;
+  padding: 18px 20px 25px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 }
 
 /* Main image */
@@ -168,11 +259,14 @@ nav a:hover {
   cursor: pointer;
   margin-bottom: 12px;
   box-shadow: inset 0 0 15px rgb(210 105 30 / 0.4);
+<<<<<<< HEAD
   transition: transform 0.3s ease;
 }
 
 .product-main-image:hover {
   transform: scale(1.05);
+=======
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 }
 
 /* Thumbnails */
@@ -226,6 +320,7 @@ nav a:hover {
   font-weight: bold;
   color: #b34915;
   font-size: 1.2rem;
+<<<<<<< HEAD
   margin-bottom: 5px;
   text-align: center;
   display: flex;
@@ -247,6 +342,10 @@ nav a:hover {
   color: #388e3c;
   margin-top: 5px;
   font-weight: 600;
+=======
+  margin-bottom: 12px;
+  text-align: center;
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 }
 
 /* Add to cart button */
@@ -269,6 +368,7 @@ button.add-to-cart:hover {
   background-color: #a74e13;
 }
 
+<<<<<<< HEAD
 /* Discount Badge */
 .badge {
   position: absolute;
@@ -283,6 +383,8 @@ button.add-to-cart:hover {
   box-shadow: 0 2px 5px rgba(210,105,30,0.5);
 }
 
+=======
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 /* Modal styling */
 #product-modal {
   display: none;
@@ -294,6 +396,10 @@ button.add-to-cart:hover {
   z-index: 1100;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 #modal-content {
   position: relative;
   background: #fff;
@@ -352,7 +458,10 @@ button.add-to-cart:hover {
   margin-bottom: 6px;
   line-height: 1.28;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 #modal-price {
   font-weight: 700;
   font-size: 1.3rem;
@@ -401,6 +510,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 /* Floating Chat Widget */
 .chat-widget {
   position: fixed;
@@ -422,6 +532,8 @@ footer a:hover {
   background-color: #a74e13;
 }
 
+=======
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 /* Mobile responsive */
 @media (max-width: 600px) {
   #product-list {
@@ -447,4 +559,121 @@ footer a:hover {
   #modal-image {
     max-height: 240px;
   }
+<<<<<<< HEAD
+=======
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9e8d7;  /* your header bg */
+  padding: 12px 30px;
+  box-sizing: border-box;
+  min-height: 90px;
+  position: relative;
+}
+
+/* Logo container */
+.site-logo {
+  flex: 0 0 160px;        /* fixed width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9e8d7;    /* match header bg */
+  border-radius: 14px;
+  /* Optional subtle border or shadow for box effect */
+  box-shadow: 0 4px 12px rgba(210, 105, 30, 0.2);
+  padding: 10px 15px;
+  margin-right: 20px;
+  height: 70px;           /* fix height of logo area */
+}
+
+/* Logo img fills container height */
+.site-logo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.25s ease;
+}
+
+.site-logo:hover img {
+  transform: scale(1.05);
+}
+
+/* Container for title and nav aligned horizontally */
+.header-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+/* Site Title */
+header h1 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #50382f;
+  margin: 0 25px 0 0;
+  white-space: nowrap;   /* keep single line */
+}
+
+/* Navigation style container */
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+/* Navigation Links */
+nav a {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #555;
+  text-decoration: none;
+  padding: 6px 0;
+  transition: color 0.3s ease;
+}
+
+nav a.active,
+nav a:hover {
+  color: #d2691e;
+}
+
+/* Email info under nav, aligned right and smaller */
+.contact-info {
+  font-size: 0.9rem;
+  color: #7a6550;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* Responsive: Stack on mobile */
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+    padding: 12px 20px;
+    min-height: auto;
+  }
+  .site-logo {
+    flex: 0 0 130px;
+    height: 55px;
+    margin-bottom: 12px;
+  }
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+  }
+  header h1 {
+    margin: 0 0 8px 0;
+  }
+  nav {
+    gap: 16px;
+  }
+  .contact-info {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
 }

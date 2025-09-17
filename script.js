@@ -6,6 +6,7 @@ const products = [
     size: "10 oz",
     fragrance: "Jasmine",
     price: 899,
+<<<<<<< HEAD
     oldPrice: 999,
     discount: "10% OFF",
     images: [
@@ -13,6 +14,14 @@ const products = [
       "OM_02.jpeg",
       "OM_03.jpeg"
     ]
+=======
+    images: [
+  "OM_01.jpeg",
+  "OM_02.jpeg",
+  "OM_03.jpeg"
+]
+
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
   },
   {
     id: 2,
@@ -35,8 +44,12 @@ const products = [
     fragrance: "Jasmine",
     price: 699,
     images: [
+<<<<<<< HEAD
       "Kaju_01.jpeg",
       "Kaju_02.jpeg"
+=======
+      "Kaju_01.jpeg"
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
     ]
   },
   {
@@ -49,7 +62,11 @@ const products = [
     price: 379,
     images: [
       "Bu_01.jpeg",
+<<<<<<< HEAD
       "BU_05.jpeg",
+=======
+      "BU_02.jpeg",
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
       "BU_03.jpeg"
     ]
   },
@@ -62,11 +79,19 @@ const products = [
     images: [
       "IMG_4069.jpeg",
       "IMG_4071.jpeg",
+<<<<<<< HEAD
       "IMG_7895,.jpeg"
     ]
   },
   {
     id: 6,         
+=======
+      
+    ]
+  },
+  {
+    id: 6,
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
     name: "Gel Wax Butterfly Jar",
     description: "1 Gel Wax Jar",
     size: "3.5 × 3.5 × 3.5 inches",
@@ -97,6 +122,7 @@ function displayFilteredProducts() {
       title="View Image ${idx + 1}" />`
     ).join('');
 
+<<<<<<< HEAD
     // Add discount badge if discount exists
     const discountBadge = product.discount ? `<div class="badge">${product.discount}</div>` : '';
 
@@ -110,6 +136,9 @@ function displayFilteredProducts() {
 
     productCard.innerHTML = `
       ${discountBadge}
+=======
+    productCard.innerHTML = `
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
       <img class="product-main-image" src="images/${product.images[0]}" alt="${product.name}" 
       onerror="this.onerror=null;this.src='images/placeholder.png';"
       onclick="openProductModalByIndex(${product.id}, 0)" />
@@ -120,8 +149,12 @@ function displayFilteredProducts() {
         <li>📦 Size: ${product.size || 'N/A'}</li>
         <li>💐 Fragrance: ${product.fragrance}</li>
       </ul>
+<<<<<<< HEAD
       <p class="price">${priceHTML}</p>
       <p class="delivery-tag">Earliest Delivery: Tomorrow</p>
+=======
+      <p class="price">₹${product.price.toFixed(2)}</p>
+>>>>>>> 214486c96ee94902d78de2e57ddb385a955e391d
       <button class="add-to-cart" onclick="addToCart(${product.id})">Add to Cart</button>
     `;
 
